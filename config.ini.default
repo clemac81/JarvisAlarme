@@ -1,5 +1,5 @@
 [global]
-ip_domoticz=
+ip_domoticz=192.168.1.38
 port=8080
 
 [secret]
