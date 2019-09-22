@@ -81,7 +81,7 @@ print(r.text)
        #      sentence = "Ok, je coupe le thermostat."
        #      logger.debug(sentence)
        #      hermes.publish_end_session(intent_message.session_id, sentence)
-            return
+       #     return
 
    
           
