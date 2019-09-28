@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
-
-CONFIGURATION_ENCODING_FORMAT = "utf-8"
-CONFIG_INI = "config.ini"
-
-def subscribe_intent_callback(hermes, intentMessage):
-        action_wrapper(hermes, intentMessage)
-
-
-def action_wrapper(hermes, intentMessage):
-    if intentName == "ActivationAlarme":
-	r = requests.get("http://192.168.1.38:8080/json.htm?type=command&param=switchlight&idx=119&switchcmd=On")
-	print(r.json)}
-    
-
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
